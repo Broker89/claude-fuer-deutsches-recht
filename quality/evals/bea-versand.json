@@ -94,19 +94,56 @@
   "cases": [
     {
       "id": "modefuchs-inhalt-statt-dateiname",
-      "request": "Prüfe anhand der beigefügten Originale die Anlagenzuordnung des vorhandenen Hauptdokuments. Erstelle ergebnis.md als internen Zuordnungs- und Produktionsbericht für die beA-Vorbereitung. Lies jeden Beleg und die echten Mailanhänge. Benenne, welche Dateien zusammengehören, welche nicht beigelegt werden, welche Hauptdokumentangaben fehlen und welche Prüfungen vor der Übergabe der PDF-Kopien noch erforderlich sind. Finalisiere den Klageinhalt nicht.",
+      "request": "Prüfe anhand der 47 Arbeitsdateien der vereinheitlichten ModeFuchs-Akte die Anlagenzuordnung des Hauptdokuments 30_Klage_Arbeitsfassung_20250725.docx. Die 28 erhaltenen Original-PDFs sind Quellen, keine neu zu formulierenden Dokumente. Erstelle ergebnis.md als internen Zuordnungs- und Produktionsbericht für die beA-Vorbereitung. Lies jeden Beleg und die echten Mailanhänge. Benenne, welche Dateien zusammengehören, welche nicht beigelegt werden, welche Hauptdokumentangaben fehlen und welche Prüfungen vor der Übergabe der PDF-Kopien noch erforderlich sind. Finalisiere den Klageinhalt nicht.",
       "target_skill": "bea-anlagen-versand",
       "input_files": [
-        "testakten/inkasso-modefuchs-cowork-sonderfall/AW Re dringend Ihre Zahlungsaufforderung.eml",
-        "testakten/inkasso-modefuchs-cowork-sonderfall/Dokument1.pdf",
-        "testakten/inkasso-modefuchs-cowork-sonderfall/Entwurf Klage MODEFUCHS FINAL v3 (2).docx",
-        "testakten/inkasso-modefuchs-cowork-sonderfall/IMG_2047.jpg",
-        "testakten/inkasso-modefuchs-cowork-sonderfall/Scan007.pdf",
-        "testakten/inkasso-modefuchs-cowork-sonderfall/Scan_20250610_113247.pdf",
-        "testakten/inkasso-modefuchs-cowork-sonderfall/mail (2).eml",
-        "testakten/inkasso-modefuchs-cowork-sonderfall/mail (3).eml",
-        "testakten/inkasso-modefuchs-cowork-sonderfall/mail.eml",
-        "testakten/inkasso-modefuchs-cowork-sonderfall/unbenannt.xlsx"
+        "testakten/inkasso-zahlungsklage-modefuchs/10_email_zahlungseingang_modefuchs_inkasso.eml",
+        "testakten/inkasso-zahlungsklage-modefuchs/30_Klage_Arbeitsfassung_20250725.docx",
+        "testakten/inkasso-zahlungsklage-modefuchs/31_Forderungskonto_Arbeitsstand_20250705.xlsx",
+        "testakten/inkasso-zahlungsklage-modefuchs/AW_Zahlungsnachweis_ModeFuchs.eml",
+        "testakten/inkasso-zahlungsklage-modefuchs/Bildschirmfoto_2025-06-27_1817.png",
+        "testakten/inkasso-zahlungsklage-modefuchs/Bildschirmfoto_Postausgang_20250701.png",
+        "testakten/inkasso-zahlungsklage-modefuchs/Dokument1.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/DRINGEND_Rechnung_3098.eml",
+        "testakten/inkasso-zahlungsklage-modefuchs/Forderungsuebergabe_1749.eml",
+        "testakten/inkasso-zahlungsklage-modefuchs/IMG_2047.jpg",
+        "testakten/inkasso-zahlungsklage-modefuchs/mail_Bestellung_1749.eml",
+        "testakten/inkasso-zahlungsklage-modefuchs/Noch_das_Bild_vom_Postfach.eml",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/00_Aktenverzeichnis_ModeFuchs.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/01_Bestellbestaetigung_03-04-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/02_Versandbestaetigung_06-04-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/03_Zustellbestaetigung_08-04-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/04_Rechnung_R-20250406-3098.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/05_Erste_Zahlungserinnerung_20-04-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/06_Zweite_Mahnung_E-Mail_04-05-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/07_Erste_Mahnung_Post_05-05-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/08_Zweite_Mahnung_Post_22-05-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/09_Abtretungserklaerung_08-06-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/10_Inkassoschreiben_10-06-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/11_Letzte_Inkassoaufforderung_25-06-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/12_Gebuehrenrechnung_Inkasso_10-06-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/13_Interner_Eingangsvermerk_Inkasso_08-06-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/14_Sachstandsvermerk_Inkasso_18-06-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/15_Zahlungsnotiz_Inkasso_01-07-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/16_Aktenvermerk_RA_Brezelmann_27-06-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/17_Mandatsblatt_BRZ-2025-447-MF.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/18_E-Mail_Altenhausen_an_RA_Brezelmann_27-06-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/19_Kontoauszug_Altenhausen_26-06-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/20_Anwaltsschreiben_RA_Brezelmann_an_InkassoZentrale_30-06-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/21_Mahnbescheid_Antrag_InkassoZentrale_05-07-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/22_Widerspruch_Mahnbescheid_RA_Brezelmann_18-07-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/23_Klageschrift_InkassoZentrale_25-07-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/24_Klageerwiderung_RA_Brezelmann_15-08-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/25_E-Mail_Zahlungserinnerung_ModeFuchs_20-04-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/26_E-Mail_Zweite_Mahnung_ModeFuchs_04-05-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/originale/27_Zahlungsbestaetigung_ModeFuchs_30-06-2025.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/Rechnung_April.eml",
+        "testakten/inkasso-zahlungsklage-modefuchs/Scan007.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/Scan_20250610_113247.pdf",
+        "testakten/inkasso-zahlungsklage-modefuchs/Weiterleitung_Direktzahlung_1749.eml",
+        "testakten/inkasso-zahlungsklage-modefuchs/WG_Postbeleg_von_heute.eml",
+        "testakten/inkasso-zahlungsklage-modefuchs/Zahlungsbestaetigung_3098.eml",
+        "testakten/inkasso-zahlungsklage-modefuchs/Zahlungserinnerung_20_04.eml"
       ],
       "deliverables": [
         "ergebnis.md"
@@ -114,28 +151,35 @@
       "criteria": [
         {
           "id": "C01",
-          "text": "K1 ist die Abtretung aus Dokument1.pdf; K2 ist die Bestellbestätigung aus mail.eml. Nicht Dateinamen oder zeitliche Sortierung entscheiden.",
+          "text": "Maßgeblich ist das Anlagenverzeichnis K1 bis K12 der 30_Klage_Arbeitsfassung_20250725.docx: K1 Abtretung vom 08.06.2025 (Original 09, Scan Dokument1.pdf), K2 Bestellbestätigung vom 03.04.2025 (Original 01, auch in mail_Bestellung_1749.eml). Dokumentinhalt entscheidet; Original und Scan/MIME-Kopie werden nicht doppelt beigelegt.",
           "deliverables": [
             "ergebnis.md"
           ]
         },
         {
           "id": "C02",
-          "text": "K3 umfasst die Rechnungs-E-Mail samt tatsächlich enthaltenem PDF-Anhang; K4 die Zahlungserinnerung, K5 die inhaltlich vom 05.05.2025 stammende Mahnung trotz Scan-Dateiname 10.06.2025.",
+          "text": "K3 ist die Versandbestätigung (Original 02), K4 die Zustellbestätigung (Original 03), K5 die Rechnung (Original 04). Rechnung_April.eml enthält echte PDF-Anhänge zu K3 und K5; sie werden gelesen und den vorhandenen Belegen zugeordnet. Die gesamte E-Mail wird nicht automatisch zur Anlage K3 erklärt.",
           "deliverables": [
             "ergebnis.md"
           ]
         },
         {
           "id": "C03",
-          "text": "K6 verbindet Scan007.pdf mit dem Einlieferungsfoto, K7 enthält die Schuldner-E-Mail. Die XLSX wird nicht automatisch K8; Gesamt-PDF/README und Bewertungsdateien sind keine Anlagen.",
+          "text": "K6 ist die Erinnerung vom 20.04.2025 (Original 05), K7 die E-Mail-Mahnung vom 04.05.2025 (Original 06), K8 die Postmahnung vom 05.05.2025 (Original 07, Scan_20250610_113247.pdf), K9 die Postmahnung vom 22.05.2025 (Original 08, Scan007.pdf). K10/K11 sind die Inkassoschreiben vom 10.06./25.06.2025 (Originale 10/11), K12 die Gebührenrechnung (Original 12). Der Scan-Dateiname legt kein abweichendes Dokumentdatum fest.",
           "deliverables": [
             "ergebnis.md"
           ]
         },
         {
           "id": "C04",
-          "text": "Offene Datums-/Unterschriftsfelder und interne Hinweise im Hauptdokument werden nicht erfunden oder stillschweigend berichtigt. Nur erste Anlagenseiten stempeln, Originalsicherung und visuelle Prüfung vorsehen.",
+          "text": "Das Hauptdokument ist auf den 25.07.2025 datiert; offene Datumsfelder oder Bearbeitungsvermerke aus der früheren Variante werden nicht unterstellt. Tatsächliche offene Angaben und Widersprüche zu Zahlungsunterlagen werden vor Freigabe benannt, nicht stillschweigend berichtigt oder materiellrechtlich finalisiert. Nur erste Anlagenseiten stempeln, die 28 Original-PDFs bytegleich sichern und visuelle Prüfung vorsehen.",
+          "deliverables": [
+            "ergebnis.md"
+          ]
+        },
+        {
+          "id": "C05",
+          "text": "47 Arbeitsdateien bedeuten nicht 47 Anlagen. Forderungskonto 31_Forderungskonto_Arbeitsstand_20250705.xlsx, Schuldner-/Zahlungsmails, Bildschirmfotos und IMG_2047.jpg werden nicht ohne Bezug im Hauptdokument oder ergänzenden Auftrag angehängt oder neu nummeriert. Das Einlieferungsfoto belegt keine Zustellung; das Filterbild vom 27.06.2025 keine historischen April-Einstellungen. Gesamt-PDF, README und Bewertungsdateien gehören nicht in die Versandmappe.",
           "deliverables": [
             "ergebnis.md"
           ]

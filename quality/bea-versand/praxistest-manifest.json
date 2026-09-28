@@ -1,6 +1,7 @@
 {
   "reviewed_on": "2026-09-28",
   "method": "manueller agentischer Praxistest mit tatsächlich erzeugten und visuell geprüften PDFs",
+  "historical_scope": "Dieser Lauf verwendete die damalige Cowork-Sonderfallakte mit zehn Eingabedateien und K1 bis K7 vor der Zusammenführung. Die folgenden Quellen, Ergebnisse und Hashes dokumentieren ausschließlich diesen historischen Lauf, nicht eine erneute Dateiproduktion oder Sichtprüfung der vereinheitlichten Akte mit 47 Arbeitsdateien und 28 Original-PDFs. Die separate Integrationsprüfung ist im Prüfbericht Abschnitt 1.5 dokumentiert.",
   "final_skill_sha256": "b5ae389012491f5ab6957043d030e1505e247189c7bc6efbdf9df48ef83bf93c",
   "final_workshop_sha256": "0a81d18737994e2adab57916fb21ec40f36309c40f856602c65c47231fbfc8b7",
   "originals": [

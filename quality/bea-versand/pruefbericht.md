@@ -4,7 +4,9 @@
 
 Geprüft wurde das neue Plugin `bea-versand` mit genau einem Skill `bea-anlagen-versand` und einem handkuratierten Werkstatt-Prompt in den byteidentischen Formaten MD und TXT. Die Ausgangsvorlage wurde für beliebige Hauptdokumente verallgemeinert. Die Prüfung umfasste redaktionelle Kontrolle, aktuelle Primärquellen, zwei manuell ausgeführte agentische Anwendungsläufe mit echten PDF-Ausgaben und technische Regressionen der Promptveröffentlichung. Sie ist keine automatische Modellbewertung und kein Nachweis universeller ERVB-Konformität.
 
-## 1.2. Modefuchs: tatsächliche Dateiproduktion
+## 1.2. Modefuchs: historische Dateiproduktion
+
+Die folgenden Praxistests in Abschnitt 1.2 und 1.3 stammen aus dem Stand vor der Zusammenführung der ModeFuchs-Akten. Ihre zehn Eingabedateien, K1-bis-K7-Zuordnung und Ausgabe-Hashes beschreiben die damalige Cowork-Sonderfallvariante. Sie sind kein Nachweis einer erneuten Produktion oder Sichtprüfung der heutigen vereinheitlichten Akte. Das historische Manifest bleibt erhalten; die aktuelle Integrationsprüfung steht getrennt in Abschnitt 1.5.
 
 Ein unabhängiger Agent erhielt den Skill und ausschließlich die zehn Originaldateien der bestehenden Cowork-Sonderfallakte. Akten-README, Bewertungsrubrik, vorhandenes Gesamt-PDF und frühere Testausgaben wurden nicht als Lösung herangezogen. Das Hauptdokument und die Belege wurden tatsächlich gelesen; die Scans und das Foto wurden visuell ausgewertet.
 
@@ -29,3 +31,15 @@ Die undatierte Anlage 3 blieb offen, weil zwei unterschiedliche Mahnungen zum Ve
 Die aktuelle Bekanntmachungsübersicht, ERVB 2025, § 2 ERVV, § 130a ZPO und die einschlägigen BRAK-Handbuchseiten wurden am 28.09.2026 tatsächlich abgerufen. Die einzelnen geprüften Aussagen und Quellen sind im [Prüfprofil](../evals/bea-versand.json) dokumentiert. Für normale beA-Anhänge wird die Uploadgrenze von 84 Zeichen einschließlich Endung von der 90-Zeichen-Grenze für Signaturdateien getrennt. Umlaute sind erlaubt, PDF/A ist keine pauschale Pflicht. Stempelschrift und zusätzliche OCR sind Qualitätsentscheidungen dieses Workflows.
 
 Es wurde nichts signiert, hochgeladen, versendet oder eingereicht. Die vorhandenen Entwurfs- und Rechenwidersprüche der Testakte wurden als Quellenbefunde belassen; ihre README beschreibt sie jetzt zutreffend. Die Originale der Testakte wurden nicht verändert. Die automatische Profilprüfung kontrolliert Veröffentlichung, Dateiumfang, MD-/TXT-Identität und Paketgrenzen; sie ersetzt keine inhaltliche Sichtung beliebiger neuer Akten.
+
+## 1.5. Separate Integrationsprüfung nach Zusammenführung
+
+Am 28.09.2026 wurde der ModeFuchs-Fall in `quality/evals/bea-versand.json` auf die 47 exportierbaren Arbeitsdateien unter `testakten/inkasso-zahlungsklage-modefuchs` umgestellt. Hauptdokument ist `30_Klage_Arbeitsfassung_20250725.docx` mit den dort tatsächlich bezeichneten Anlagen K1 bis K12. Die Eingaben enthalten die 28 erhaltenen Original-PDFs, nicht die frühere Nebenfallvariante oder redaktionelle Lösungsdateien. Der Auftrag bleibt Anlagenzuordnung und Versandvorbereitung ohne stille Finalisierung des Klageinhalts.
+
+Tatsächlich ausgeführte technische Prüfungen:
+
+- `scripts/test-bea-versandmappe.py`: bestanden. Das Eval referenziert exakt den aktuellen Arbeitsbestand von 47 Dateien; alle 28 Original-PDFs stimmen mit den hinterlegten SHA-256-Werten überein. Der bestehende, davon getrennte synthetische Werkzeugtest erzeugte drei Versanddateien mit vier gestempelten Anlagenseiten ohne Stop- oder Warnbefund.
+- `quality_lab.validate_profile`: das aktualisierte beA-Profil ist gültig; alle Eingabepfade wurden validiert. Skill- und Werkstatt-Hashes stimmen weiterhin mit dem historischen Manifest überein; Werkstatt-MD und -TXT sind bytegleich. Die Inhalte und Quellhashes wurden nicht verändert.
+- `.venv/bin/python scripts/test-prompt-publication-profiles.py`: bestanden; alle neun Tests erfolgreich, Exit-Code 0. Ausgeführt mit der Repository-Virtualenv, in der `markdown_it` verfügbar ist.
+
+Diese Integrationsprüfung ist keine neue agentische Evaluation und keine visuelle Abnahme von Versand-PDFs aus der vereinheitlichten Akte. Die historischen Produktionszahlen und Hashes werden nicht auf den neuen Fall übertragen. Kein beA-Versand, keine Signaturprüfung und kein Release-Archivtest wurden vorgenommen.

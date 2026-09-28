@@ -64,7 +64,7 @@ Jede Akte ist getrennt als lesbares Gesamt-PDF, ZIP mit Originaldateien und ZIP 
 
 | Akte | Gesamt-PDF | Originaldateien | Einzel-PDFs |
 | --- | --- | --- | --- |
-| [Akte Inkasso ModeFuchs – Cowork-Sonderfall (unsortierter Desktop-Ordner)](../testakten/inkasso-modefuchs-cowork-sonderfall/README.md) | [Gesamt-PDF](../testakten/inkasso-modefuchs-cowork-sonderfall/gesamt-pdf/inkasso-modefuchs-cowork-sonderfall_gesamt.pdf) | [`testakte-inkasso-modefuchs-cowork-sonderfall.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-inkasso-modefuchs-cowork-sonderfall.zip) | [`testakte-inkasso-modefuchs-cowork-sonderfall-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-inkasso-modefuchs-cowork-sonderfall-einzelpdfs.zip) |
+| [Akte Inkasso-Zahlungsklage ModeFuchs](../testakten/inkasso-zahlungsklage-modefuchs/README.md) | [Gesamt-PDF](../testakten/inkasso-zahlungsklage-modefuchs/gesamt-pdf/inkasso-zahlungsklage-modefuchs_gesamt.pdf) | [`testakte-inkasso-zahlungsklage-modefuchs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-inkasso-zahlungsklage-modefuchs.zip) | [`testakte-inkasso-zahlungsklage-modefuchs-einzelpdfs.zip`](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-inkasso-zahlungsklage-modefuchs-einzelpdfs.zip) |
 
 [Alle Testakten und Fachzuordnungen](../testakten/README.md)
 <!-- END direkt-loslegen (autogen) -->
@@ -107,7 +107,7 @@ Die Originale bleiben unverändert. Digitale Signaturen werden vor Änderungen b
 
 ## 1.9. Modefuchs als Testakte
 
-Verwendet wird die **bereits vorhandene Modefuchs-Sonderfallakte** aus dem Forderungsmanagement: zehn unsortiert benannte Originaldateien mit einem Word-Klageentwurf, vier E-Mails, drei gescannten PDFs, einem Foto und einem Excel-Forderungskonto. Die Akte eignet sich für die inhaltliche Zuordnung, die Verarbeitung echter Mailanhänge und das Zusammenstellen von Konvoluten.
+Verwendet wird die **gemeinsame Akte Inkasso-Zahlungsklage ModeFuchs** aus dem Forderungsmanagement: 28 unveränderte Original-PDFs, drei daraus abgeleitete Scan-PDFs, ein Belegfoto, elf native E-Mails mit eingebetteten Anhängen, zwei Bildschirmfotos, ein Excel-Forderungskonto und eine bearbeitbare Klagearbeitsfassung. Die Akte eignet sich für die inhaltliche Zuordnung, die Verarbeitung echter Mailanhänge und das Zusammenstellen von Konvoluten.
 
 > Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
 >
@@ -115,15 +115,17 @@ Verwendet wird die **bereits vorhandene Modefuchs-Sonderfallakte** aus dem Forde
 
 | Testakte | Download |
 | --- | --- |
-| Modefuchs mit allen nativen Originalen | [Originalformat-ZIP](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-inkasso-modefuchs-cowork-sonderfall.zip) |
-| Jede Unterlage als eigene PDF | [Einzel-PDF-ZIP](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-inkasso-modefuchs-cowork-sonderfall-einzelpdfs.zip) |
-| Gesamte Akte zum Lesen | [Gesamt-PDF](../testakten/inkasso-modefuchs-cowork-sonderfall/gesamt-pdf/inkasso-modefuchs-cowork-sonderfall_gesamt.pdf) |
+| ModeFuchs mit allen nativen Originalen | [Originalformat-ZIP](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-inkasso-zahlungsklage-modefuchs.zip) |
+| Jede Unterlage als eigene PDF | [Einzel-PDF-ZIP](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/latest/download/testakte-inkasso-zahlungsklage-modefuchs-einzelpdfs.zip) |
+| Gesamte Akte zum Lesen | [Gesamt-PDF](../testakten/inkasso-zahlungsklage-modefuchs/gesamt-pdf/inkasso-zahlungsklage-modefuchs_gesamt.pdf) |
 
-Für den Praxistest das Originalformat-ZIP entpacken und diesen Ordner zusammen mit dem Werkstatt-Prompt öffnen. Der vorhandene Word-Entwurf ist das Hauptdokument. Der Auftrag besteht darin, die darin bezeichneten Anlagen für den beA-Upload vorzubereiten. Die mitgelieferte Arbeitsmappe wird nicht allein deshalb zur Anlage, weil sie im Ordner liegt. Ein mitgeliefertes Gesamt-PDF dient als Leseausgabe und ist keine zusätzliche Anlage des Hauptdokuments.
+Für den Praxistest das Originalformat-ZIP entpacken und diesen Ordner zusammen mit dem Werkstatt-Prompt öffnen. `30_Klage_Arbeitsfassung_20250725.docx` ist das Hauptdokument. Es verwendet die Anlagen K1 bis K12 wie die ursprüngliche PDF-Klageschrift `originale/23_Klageschrift_InkassoZentrale_25-07-2025.pdf`. Der Auftrag besteht darin, die darin bezeichneten Belege zuzuordnen und als Anlagen für den beA-Upload vorzubereiten. Maßgeblich sind die Anlagenverweise dieses Hauptdokuments, nicht die frühere Nummerierung des entfernten Nebenfalls.
 
-[Aktenbeschreibung und Auflösung](../testakten/inkasso-modefuchs-cowork-sonderfall/README.md) · [Forderungsmanagement-Klagewerkstatt](../forderungsmanagement-klagewerkstatt/README.md)
+`31_Forderungskonto_Arbeitsstand_20250705.xlsx` dokumentiert Vorbestand und Gutschrift, ohne Zinsneuberechnung. Die Arbeitsmappe wird nicht allein deshalb zur Anlage, weil sie im Ordner liegt. Ein mitgeliefertes Gesamt-PDF dient als Leseausgabe und ist keine zusätzliche Anlage des Hauptdokuments.
 
-Es handelt sich um dieselbe bestehende Akte, keine abweichende Kopie. Die andere Modefuchs-Hauptakte zur bereits bezahlten Hauptforderung erzählt einen eigenen Sachverhalt und wird nicht mit diesem Anlagenlauf vermischt.
+[Aktenbeschreibung und Dateiinventar](../testakten/inkasso-zahlungsklage-modefuchs/README.md) · [Forderungsmanagement-Klagewerkstatt](../forderungsmanagement-klagewerkstatt/README.md)
+
+Forderungsmanagement und beA-Versand verwenden denselben kanonischen Fallbestand, keine abweichenden Kopien. Dieser beA-Testlauf umfasst ausschließlich Belegzuordnung, PDF-Aufbereitung, Stempelung und Dateibenennung. Er erteilt keine Versandfreigabe und übermittelt keine Nachricht.
 
 <!-- decimal-anchor --> <a id="technischer-quellenstand"></a>
 

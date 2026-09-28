@@ -1,8 +1,8 @@
 # Skills-Index: Detailseiten pro Plugin
 
-Eine Detailseite pro Plugin mit allen Skills, Beschreibungen und Einzel-Downloads. Stand: `v445.12.0`.
+Eine Detailseite pro Plugin mit allen Skills, Beschreibungen und Einzel-Downloads. Stand: `v445.13.0`.
 
-Die Aufteilung verhindert, dass eine einzige Seite alle 22450 Skillzeilen rendern muss. Die Detailseiten bleiben dadurch schnell und einzeln verlinkbar.
+Die Aufteilung verhindert, dass eine einzige Seite alle 22485 Skillzeilen rendern muss. Die Detailseiten bleiben dadurch schnell und einzeln verlinkbar.
 
 English: Each plugin has one lightweight detail page containing its complete skill list, descriptions and direct Markdown downloads. Open a plugin page to choose a skill; links labelled `Download MD` save the file instead of opening a source preview.
 
@@ -81,6 +81,7 @@ Alphabetisch sortiert: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F
 - [einigungsvertrag-vermoegensrecht](./einigungsvertrag-vermoegensrecht.md) (124 Skills)
 - [email-umformulierer-berufsrecht](./email-umformulierer-berufsrecht.md) (83 Skills)
 - [energierecht](./energierecht.md) (96 Skills)
+- [enteignung-artikel-14](./enteignung-artikel-14.md) (9 Skills)
 - [erbbaurecht-praxis](./erbbaurecht-praxis.md) (51 Skills)
 - [europaeisches-prozessrecht](./europaeisches-prozessrecht.md) (22 Skills)
 - [europarecht-kompass](./europarecht-kompass.md) (58 Skills)
@@ -174,6 +175,8 @@ Alphabetisch sortiert: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F
 - [kartellrecht-marktabgrenzung-pruefung](./kartellrecht-marktabgrenzung-pruefung.md) (181 Skills)
 - [ki-governance](./ki-governance.md) (60 Skills)
 - [ki-richtlinie-kanzleien](./ki-richtlinie-kanzleien.md) (60 Skills)
+- [ki-verordnung-hochrisiko-pruefer](./ki-verordnung-hochrisiko-pruefer.md) (9 Skills)
+- [ki-verordnung-transparenzpruefer](./ki-verordnung-transparenzpruefer.md) (8 Skills)
 - [ki-vo-ai-act-pruefer](./ki-vo-ai-act-pruefer.md) (123 Skills)
 - [kommunalrecht-laender](./kommunalrecht-laender.md) (177 Skills)
 - [krankenhausrecht](./krankenhausrecht.md) (69 Skills)
@@ -301,6 +304,7 @@ Alphabetisch sortiert: [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F
 - [verbraucherschutzverband-durchsetzung](./verbraucherschutzverband-durchsetzung.md) (122 Skills)
 - [vereinsrecht-vereinsmanager](./vereinsrecht-vereinsmanager.md) (59 Skills)
 - [verfassungsrecht](./verfassungsrecht.md) (69 Skills)
+- [vergesellschaftung-artikel-15](./vergesellschaftung-artikel-15.md) (9 Skills)
 - [verhaeltnismaessigkeitspruefer](./verhaeltnismaessigkeitspruefer.md) (86 Skills)
 - [verkehr-infrastrukturrecht](./verkehr-infrastrukturrecht.md) (60 Skills)
 - [verkehrsowi-verteidiger](./verkehrsowi-verteidiger.md) (61 Skills)

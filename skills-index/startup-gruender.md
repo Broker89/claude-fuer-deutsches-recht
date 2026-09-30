@@ -1,6 +1,6 @@
 # startup-gruender
 
-**18 Skills** · Stand `v445.15.4`
+**18 Skills** · Stand `v445.16.0`
 
 [Repository-Start](../README.md) · [Skill-Gesamtübersicht](../SKILLS.md) · [Plugin-README](../startup-gruender/README.md) · [Download-Index](../ASSET_INDEX.md) · [Testakten](../testakten/README.md)
 

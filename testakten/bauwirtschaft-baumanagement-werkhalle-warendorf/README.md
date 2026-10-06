@@ -11,7 +11,6 @@
 Privater Werkhallenbau aus Sicht der Bauherrin und des Projektcontrollings. Kostenstand, Bestellungen, Restleistungen und Zahlungsplan treffen auf eine verspätete Trafostation und noch nicht freigegebene Zusatzangebote. Stand: 25. September 2026, 16:00 Uhr.
 
 <!-- BEGIN vertiefte-ausgabe-20261006 -->
-<a id="akte-komplett-herunterladen"></a>
 
 <!-- decimal-anchor --> <a id="vertiefte-ausgabe-vom-6-oktober-2026"></a>
 
@@ -34,19 +33,13 @@ Die folgenden Downloads enthalten den vollständigen erweiterten Bestand. Der Fa
 <!-- END vertiefte-ausgabe-20261006 -->
 
 <!-- BEGIN gesamt-pdf-section (autogen) -->
-<!-- decimal-anchor --> <a id="basisarchive-zur-pluginversion"></a>
+<!-- decimal-anchor --> <a id="akte-komplett-herunterladen"></a>
 
-## 1.3. Basisarchive zur Pluginversion
+## 1.3. Akte komplett herunterladen
 
 [Testakten-Übersicht](../README.md) · [Repository-Start](../../README.md) · [Plugin-Katalog](../../README.md#was-ist-drin) · [Download-Index](../../ASSET_INDEX.md)
 
-Die ZIP-Links in diesem Abschnitt bewahren die frühere Basisfassung aus akten-v445.33.0. Für die erweiterte Akte bitte die **vertiefte Ausgabe oben** verwenden. Das Repository-Gesamt-PDF enthält bereits die Erweiterung.
-
 Dieses Aktenpaket gibt es in drei Formaten. Das Gesamt-PDF eignet sich zum Lesen und Ausdrucken. Das Akten-ZIP enthält die nativen Originaldateien wie DOCX, Tabellen, E-Mails, Fotos und PDFs. Es enthält kein Markdown; sämtliche Dateien liegen ohne Unterordner unmittelbar auf der ZIP-Wurzelebene. Das Einzel-PDF-ZIP liefert jede Unterlage als separate, sauber gerenderte PDF unmittelbar auf der ZIP-Wurzelebene.
-
-<!-- reserved-example-contacts -->
-
-Die ergänzten Kontaktadressen verwenden reservierte `.example`-Domains und sind nicht für einen Versand bestimmt.
 
 > Diese Testakte wurde mit KI generiert und ist ein Experiment. Benutzung auf eigene Verantwortung und eigene Gefahr.
 >
@@ -55,14 +48,18 @@ Die ergänzten Kontaktadressen verwenden reservierte `.example`-Domains und sind
 | Was | Format | Quelle |
 | --- | --- | --- |
 | Gesamt-PDF (alles in einer Datei) | PDF | [`gesamt-pdf/bauwirtschaft-baumanagement-werkhalle-warendorf_gesamt.pdf`](gesamt-pdf/bauwirtschaft-baumanagement-werkhalle-warendorf_gesamt.pdf) |
-| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-bauwirtschaft-baumanagement-werkhalle-warendorf.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.33.0/testakte-bauwirtschaft-baumanagement-werkhalle-warendorf.zip) |
-| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-bauwirtschaft-baumanagement-werkhalle-warendorf-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.33.0/testakte-bauwirtschaft-baumanagement-werkhalle-warendorf-einzelpdfs.zip) |
+| Akten-ZIP (alle Einzeldateien) | ZIP | [testakte-bauwirtschaft-baumanagement-werkhalle-warendorf.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.33.1/testakte-bauwirtschaft-baumanagement-werkhalle-warendorf.zip) |
+| Einzel-PDF-ZIP (jede Unterlage als eigene PDF) | ZIP | [testakte-bauwirtschaft-baumanagement-werkhalle-warendorf-einzelpdfs.zip](https://github.com/Klotzkette/claude-fuer-deutsches-recht/releases/download/akten-v445.33.1/testakte-bauwirtschaft-baumanagement-werkhalle-warendorf-einzelpdfs.zip) |
 
 Die ZIP-Links laden den zur angegebenen Marketplace-Version gehörenden Akten-Begleitrelease. Das Gesamt-PDF ist auch im Akten-ZIP enthalten; für eine einheitliche Arbeitsfassung genügt deshalb dieses Archiv. Der hier verlinkte Repository-Stand kann zwischen Releases bereits neuer sein.
 
 English: The original-format ZIP contains the working files directly at archive root, without subfolders or Markdown. Choose the combined PDF for reading; it is also included in that ZIP. Choose the individual-PDF ZIP to review each document separately. These are practice documents, not an installable plugin. ZIP links refer to the case companion release for the stated marketplace version.
 
 <!-- END gesamt-pdf-section (autogen) -->
+
+<!-- reserved-example-contacts -->
+
+Die ergänzten Kontaktadressen verwenden reservierte `.example`-Domains und sind nicht für einen Versand bestimmt.
 
 <!-- decimal-anchor --> <a id="bestand"></a>
 

@@ -165,6 +165,8 @@ Prüfe bei einem komplexeren Auftrag den Zusammenhang der Produkte: Mandantenemp
 
 ### 3.14. Agentischer Lauf und Freigabestufe
 
+Über mehrere Mandate hinweg ordnet `mandatslauf.py cockpit --kanzlei <Kanzleiordner>` alle Läufe nach offenem Fristgate, anderen offenen Gates und offenen Fragen; die wiederkehrenden Abläufe vom Tagesstart bis zum Mandatsende stehen in der [Kanzleialltag-Referenz](../../references/kanzleialltag-workflows.md) und werden in Claude Cowork mit den Befehlen des Plugins gestartet.
+
 Der Mandatslauf nach [Mandatslauf und Freigaben](../../references/mandatslauf-und-freigaben.md), geführt mit [`mandatslauf.py`](../../scripts/mandatslauf.py), bestimmt die Reihenfolge der Fachskills. Dieser Skill verantwortet die Phase `eingang`; sie endet mit dem zugeordneten Auftrag und der erkannten Startsituation, Produkt `auftrag`. Danach setzt er die Hauptphase des bestellten Produkts und führt einen Fristauslöser mit `phase --phase frist --nebenlauf` neben der Sacharbeit. Die Querschnittsskills erhalten keinen Nebenlauf, weil `--nebenlauf` nur Phasennamen kennt; sie tragen sich über ihr Gate (G6 Dienstleister, G7 Meldung) und `question` ein.
 
 | Stufe | Dieser Skill tut ohne Rückfrage |
@@ -247,7 +249,7 @@ Literatur darf nur aus vom Nutzer bereitgestellten Texten oder tatsächlich verf
 - [§ 222 ZPO](https://www.gesetze-im-internet.de/zpo/__222.html), [§ 187 BGB](https://www.gesetze-im-internet.de/bgb/__187.html), [§ 188 BGB](https://www.gesetze-im-internet.de/bgb/__188.html), [§ 193 BGB](https://www.gesetze-im-internet.de/bgb/__193.html): Fristbeginn, Fristende und Verschiebung.
 - [§ 130a ZPO](https://www.gesetze-im-internet.de/zpo/__130a.html) und [§ 130d ZPO](https://www.gesetze-im-internet.de/zpo/__130d.html): elektronische Einreichung, Signatur und Nutzungspflicht.
 - [§ 2 GwG](https://www.gesetze-im-internet.de/gwg_2017/__2.html) und [§ 10 GwG](https://www.gesetze-im-internet.de/gwg_2017/__10.html): anlassbezogene Verpflichtetenstellung und Sorgfaltspflichten.
-- [§ 4 KSchG](https://www.gesetze-im-internet.de/kschg/__4.html) und [§ 12a ArbGG](https://www.gesetze-im-internet.de/arbgg/__12a.html): Dreiwochenfrist der Kündigungsschutzklage und Kostentragung erster Instanz; beide in dieser Fassung am Volltext zu prüfen, die Berechnung übernimmt der Fachskill.
+- [§ 4 KSchG](https://www.gesetze-im-internet.de/kschg/__4.html) und [§ 12a ArbGG](https://www.gesetze-im-internet.de/arbgg/__12a.html): Klage binnen drei Wochen nach Zugang der schriftlichen Kündigung (§ 4 Satz 1 KSchG); im Urteilsverfahren erster Instanz kein Anspruch auf Erstattung von Zeitversäumnis und Prozessbevollmächtigtenkosten (§ 12a Absatz 1 Satz 1 ArbGG) und Hinweispflicht vor Abschluss der Vertretungsvereinbarung (Satz 2); die Berechnung übernimmt der Fachskill.
 
 ### 4.4. Belegdisziplin
 
